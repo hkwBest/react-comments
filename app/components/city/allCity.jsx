@@ -16,7 +16,7 @@ class AllCity extends React.Component {
                 <ul className="city-list">
                     {
                         cityArray.map((item,index) => {
-                            return <li key={index} onClick={this.changeCity}><span>{item}</span></li>
+                            return <li key={index}><span onClick={this.changeCity}>{item}</span></li>
                         })
                     }
                 </ul>

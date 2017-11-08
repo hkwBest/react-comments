@@ -16,12 +16,11 @@ class City extends React.Component {
         super(props, context);
         this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
         this.changeCity = this.changeCity.bind(this);
-        this.clickHandle = this.clickHandle.bind(this);
     }
     render() {
         return (
             <div className="city-com">
-                <Header title="选择城市" clickHandle={this.clickHandle} />
+                <Header title="选择城市" />
                 <div className="current-city">
                     {this.props.userinfo.cityName}
                 </div>
@@ -38,9 +37,7 @@ class City extends React.Component {
         hashHistory.push("/");
        // this.clickHandle();
     }
-    clickHandle(){
-        window.history.back();
-    }
+
 }
 
 function mapStateToProps(state) {

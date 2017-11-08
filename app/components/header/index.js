@@ -1,6 +1,8 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 
+import './style.less'
+
 class Header extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -16,7 +18,7 @@ class Header extends React.Component {
         )
     }
     clickHandle(){
-        this.props.clickHandle();
+        window.history.back();
     }
 }
 

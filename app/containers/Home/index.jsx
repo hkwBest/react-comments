@@ -25,7 +25,6 @@ class Home extends React.Component {
     }
 }
 
-// -------------------redux react 绑定--------------------
 
 function mapStateToProps(state) {
     return {

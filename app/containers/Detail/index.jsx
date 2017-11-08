@@ -1,20 +1,32 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
+import Header from '../../components/header/index';
+import GoodsInfo from './subpage/goodsInfo';
+import CommentsList from './subpage/commentsInfo'
 
 class Detail extends React.Component {
     constructor(props, context) {
         super(props, context);
         this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
+        this.state = {
+            goodsInfo: {},
+            commentsInfo: [],
+            page : 1,
+            hasMore : false,
+            isLoadingMore : false
+        }
+
     }
     render() {
+        let params = this.props.params;
         return (
             <div>
-                <h1>Detail</h1>
+                <Header title="商品详情" clickHandle={this.clickHandle}/>
+                <GoodsInfo id={params.id}/>
+                <CommentsList id={params.id}/>
             </div>
         )
     }
 }
 
-// 使用 require.ensure 异步加载，还不支持 ES6 的 export 
-// export default Detail
-module.exports = Detail
+export default Detail
