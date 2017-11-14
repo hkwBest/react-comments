@@ -1,7 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7beb8524-740a-43bd-b606-b5bfda6c31df" name="Default" comment="" />
+    <list default="true" id="7beb8524-740a-43bd-b606-b5bfda6c31df" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/actions/store.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/BuyAndStore/index.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/BuyAndStore/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/Login/index.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/Login/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/OrderList/Item/index.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/OrderList/Item/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/OrderList/index.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/OrderList/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/UserInfo/index.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/UserInfo/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/constants/store.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/containers/Detail/subpage/buy.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/containers/User/subPages/orderList.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/containers/User/subPages/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/reducers/store.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/01丽人icon_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/01休闲娱乐icon_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/01周边游icon_10png.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/01外卖icon_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/01度假出行icon_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/01火锅icon_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/01电影icon_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/01美食icon_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/01足疗按摩icon_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/01酒店icon_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/02KTVicon_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/02亲子icon_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/02小吃快餐icon_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/02景点icon_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/02生活服务icon_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/02美发icon_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/02自助餐icon_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/02购物icon_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/02运动健身icon_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/02酒吧icon_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/03SPAicon_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/03全部分类icon_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/03学习培训icon_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/03宠物icon_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/03家装icon_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/03日本菜icon_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/03火车机票icon_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/03烧烤icon_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/03结婚icon_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/轮播图icon/03西餐icon_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/首页01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/首页02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UE/首页03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/actions/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/constants/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/fetch/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/reducers/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/router/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/store/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/util/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/README.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/header/index.js" afterPath="$PROJECT_DIR$/app/components/header/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/Detail/index.jsx" afterPath="$PROJECT_DIR$/app/containers/Detail/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/Login/index.jsx" afterPath="$PROJECT_DIR$/app/containers/Login/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/User/index.jsx" afterPath="$PROJECT_DIR$/app/containers/User/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fetch/user/orderlist.js" afterPath="$PROJECT_DIR$/app/fetch/user/orderlist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/reducers/index.js" afterPath="$PROJECT_DIR$/app/reducers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/reducers/userinfo.js" afterPath="$PROJECT_DIR$/app/reducers/userinfo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/store/configureStore.js" afterPath="$PROJECT_DIR$/app/store/configureStore.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,7 +84,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,6 +97,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>search-container</find>
+      <find>bindActionCreators</find>
+      <find>input-container</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -45,7 +117,6 @@
         <option value="$PROJECT_DIR$/app/reducers/userinfo.js" />
         <option value="$PROJECT_DIR$/app/containers/404.jsx" />
         <option value="$PROJECT_DIR$/app/components/city/cityHeader.js" />
-        <option value="$PROJECT_DIR$/app/components/header/index.js" />
         <option value="$PROJECT_DIR$/app/components/city/cityHeader.jsx" />
         <option value="$PROJECT_DIR$/app/components/Category/index.jsx" />
         <option value="$PROJECT_DIR$/app/containers/City/index.jsx" />
@@ -55,6 +126,15 @@
         <option value="$PROJECT_DIR$/app/containers/Search/index.jsx" />
         <option value="$PROJECT_DIR$/app/components/HomeAd/index.jsx" />
         <option value="$PROJECT_DIR$/app/components/HomeHeader/index.jsx" />
+        <option value="$PROJECT_DIR$/app/components/Login/index.jsx" />
+        <option value="$PROJECT_DIR$/app/containers/User/index.jsx" />
+        <option value="$PROJECT_DIR$/app/containers/Login/index.jsx" />
+        <option value="$PROJECT_DIR$/app/containers/Detail/index.jsx" />
+        <option value="$PROJECT_DIR$/app/components/header/index.js" />
+        <option value="$PROJECT_DIR$/app/fetch/user/orderlist.js" />
+        <option value="$PROJECT_DIR$/app/components/Login/style.less" />
+        <option value="$PROJECT_DIR$/app/fetch/README.md" />
+        <option value="$PROJECT_DIR$/app/reducers/README.md" />
       </list>
     </option>
   </component>
@@ -90,7 +170,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,28 +182,16 @@
               <item name="react-comments" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="react-comments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-comments" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-comments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-comments" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/gitProject" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -157,29 +224,35 @@
       <workItem from="1509432520022" duration="7878000" />
       <workItem from="1509671108597" duration="17233000" />
       <workItem from="1509949918486" duration="7050000" />
-      <workItem from="1510134338046" duration="559000" />
+      <workItem from="1510134338046" duration="1482000" />
+      <workItem from="1510187894966" duration="610000" />
+      <workItem from="1510189337114" duration="3640000" />
+      <workItem from="1510275270402" duration="776000" />
+      <workItem from="1510280201158" duration="7413000" />
+      <workItem from="1510534473877" duration="613000" />
+      <workItem from="1510641184078" duration="1280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32720000" />
+    <option name="totallyTimeSpent" value="47975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -201,23 +274,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/containers/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/app/components/city/cityHeader.jsx" />
-    <entry file="file://$PROJECT_DIR$/app/components/city/allCity.jsx" />
-    <entry file="file://$PROJECT_DIR$/app/containers/Home/subpage/List.jsx" />
-    <entry file="file://$PROJECT_DIR$/app/components/header/index.js" />
-    <entry file="file://$PROJECT_DIR$/app/containers/404.jsx" />
-    <entry file="file://$PROJECT_DIR$/app/containers/City/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/app/containers/Home/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/app/components/Category/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/app/components/Category/style.less" />
-    <entry file="file://$PROJECT_DIR$/webpack.config.js" />
-    <entry file="file://$PROJECT_DIR$/mock/server.js" />
-    <entry file="file://$PROJECT_DIR$/app/containers/Home/subpage/Ad.jsx" />
-    <entry file="file://$PROJECT_DIR$/app/fetch/home/home.js" />
-    <entry file="file://$PROJECT_DIR$/app/containers/404.jsx" />
     <entry file="file://$PROJECT_DIR$/app/components/HomeAd/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/app/components/HomeAd/style.less" />
     <entry file="file://$PROJECT_DIR$/app/index.jsx" />
@@ -235,22 +292,230 @@
     <entry file="file://$PROJECT_DIR$/app/reducers/userinfo.js" />
     <entry file="file://$PROJECT_DIR$/app/actions/userinfo.js" />
     <entry file="file://$PROJECT_DIR$/app/components/city/cityHeader.js" />
-    <entry file="file://$PROJECT_DIR$/app/containers/404.jsx" />
     <entry file="file://$PROJECT_DIR$/app/components/Category/style.less" />
-    <entry file="file://$PROJECT_DIR$/app/components/header/index.js" />
     <entry file="file://$PROJECT_DIR$/app/containers/Home/subpage/List.jsx" />
     <entry file="file://$PROJECT_DIR$/app/components/city/cityHeader.jsx" />
     <entry file="file://$PROJECT_DIR$/app/containers/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/app/containers/City/index.jsx" />
     <entry file="file://$PROJECT_DIR$/app/components/city/index.less" />
     <entry file="file://$PROJECT_DIR$/app/components/city/allCity.jsx" />
     <entry file="file://$PROJECT_DIR$/app/components/HomeHeader/style.less" />
-    <entry file="file://$PROJECT_DIR$/app/containers/Home/index.jsx" />
     <entry file="file://$PROJECT_DIR$/app/containers/Home/subpage/Ad.jsx" />
     <entry file="file://$PROJECT_DIR$/app/components/HomeAd/index.jsx" />
     <entry file="file://$PROJECT_DIR$/app/components/Category/index.jsx" />
     <entry file="file://$PROJECT_DIR$/app/components/HomeHeader/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/app/router/routeMap.jsx" />
     <entry file="file://$PROJECT_DIR$/app/containers/Search/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/app/containers/Home/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/City/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/404.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router/routeMap.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/User/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/Login/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="75" column="8" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/Detail/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/fetch/user/orderlist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Login/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Login/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/actions/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/fetch/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/reducers/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/util/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-780">
+            <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UE/首页01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
   </component>
 </project>

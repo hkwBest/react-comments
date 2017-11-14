@@ -1,5 +1,12 @@
 import React from 'react'
-import PureRenderMixin from 'react-addons-pure-render-mixin'
+import PureRenderMixin from 'react-addons-pure-render-mixin';
+import {bindActionCreators} from 'redux';
+import {connect} from 'react-redux';
+import {hashHistory} from 'react-router';
+import * as userActionsFromFile from '../../actions/userinfo';
+import Header from '../../components/header/index';
+import UserInfo from '../../components/UserInfo/index';
+import OrderList from './subPages/orderList';
 
 class User extends React.Component {
     constructor(props, context) {
@@ -9,12 +16,30 @@ class User extends React.Component {
     render() {
         return (
             <div>
-                <h1>User</h1>
+                <Header title="用户中心" backRouter="/" />
+                <UserInfo username={this.props.userinfo.userName} city={this.props.userinfo.cityName}/>
+                <OrderList/>
             </div>
         )
     }
+    componentDidMount(){
+        if(!this.props.userinfo.userName){
+            hashHistory.push('/Login');
+        }
+    }
 }
 
-// 使用 require.ensure 异步加载，还不支持 ES6 的 export 
-// export default User
-module.exports = User
+function mapStateToprops(state){
+    return {
+        userinfo : state.userinfo
+    }
+}
+function mapDispatchToProps(dispatch){
+    return {
+        userActions : bindActionCreators(userActionsFromFile,dispatch)
+    }
+}
+export default connect(
+    mapStateToprops,
+    mapDispatchToProps
+)(User)

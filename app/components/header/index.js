@@ -1,5 +1,8 @@
 import React from 'react'
-import PureRenderMixin from 'react-addons-pure-render-mixin'
+import PureRenderMixin from 'react-addons-pure-render-mixin';
+import { hashHistory } from 'react-router';
+
+import './style.less'
 
 import './style.less'
 
@@ -18,7 +21,11 @@ class Header extends React.Component {
         )
     }
     clickHandle(){
-        window.history.back();
+        if(this.props.backRouter){
+            hashHistory.push(this.props.backRouter);
+        }else {
+            window.history.back();
+        }
     }
 }
 
